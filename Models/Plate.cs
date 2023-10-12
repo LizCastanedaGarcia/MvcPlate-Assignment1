@@ -11,7 +11,7 @@ namespace MvcPlate.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
-        [DataType(DataType.Date)]
+        //[DataType(DataType.Date)]
         public DateTime StockDate { get; set; }
 
         public string Description { get; set; }
